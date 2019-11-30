@@ -9,7 +9,7 @@
 
 /* Reset */
 
-	html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video {
+	html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, h7, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video {
 		margin: 0;
 		padding: 0;
 		border: 0;
@@ -1670,7 +1670,7 @@
 		margin: 0 0 2em 0;
 	}
 
-	h1, h2, h4, h5, h6 {
+	h1, h2, h4, h5, h6, h7 {
 		color: #484848;
 		font-weight: 700;
 		line-height: 1em;
@@ -1687,7 +1687,7 @@ h3 {
 	}
 
 
-		h1 a, h2 a, h3 a, h4 a, h5 a, h6 a {
+		h1 a, h2 a, h3 a, h4 a, h5 a, h6 a, h7 a {
 			color: inherit;
 			text-decoration: none;
 		}
@@ -1718,6 +1718,12 @@ h3 {
 	h6 {
 		font-size: 0.7em;
 		line-height: 1.3em;
+	}
+
+	h7 {
+		font-size: 1.0em;
+		line-height: 1.3em;
+		position: relative;
 	}
 
 	sub {
@@ -2687,6 +2693,12 @@ h3 {
 		line-height: 1.5em;
 	}
 
+	header h7 + p {
+		font-size: 0.9em;
+		margin-top: -0.6em;
+		line-height: 1.0em;
+	}
+
 	header h4 + p,
 	header h5 + p,
 	header h6 + p {
@@ -2703,7 +2715,7 @@ h3 {
 			font-size: 3em;
 		}
 
-		header.major h2, header.major h3, header.major h4, header.major h5, header.major h6 {
+		header.major h2, header.major h3, header.major h4, header.major h5, header.major h6, header.major h7 {
 			display: inline-block;
 			margin: 0 0 0.8em;
 		}
@@ -3481,20 +3493,22 @@ ol {
 		altul.dates li {
 			position: relative;
 			border-top: solid 2px #ddd;
-			padding: 1.3em 0 1.3em 15.75em;
+			padding: 1.2em 0 0.6em 15.75em;
 		}
 
 		altul.dates .date {
+			font-family: Helvetica;
 			display: block;
 			position: absolute;
 			left: 1em;
-			top: 1.3em;
-			background-color: #d52349;
-			height: 3.5em;
+			top: 0.8em;
+			bottom: 1.2em;
+			background-color: #F02D56; #d52349;
+			height: 4.2em;
 			width: 12em;
 			text-align: center;
 			color: #fff;
-			line-height: 1em;
+			line-height: 1.25em;
 			border-top-right-radius: 5px;
 			border-bottom-right-radius: 5px;
 			border-top-left-radius: 5px;
@@ -3515,7 +3529,7 @@ ol {
 			altul.dates .date strong {
 				display: block;
 				font-size: 1.75em;
-				padding-top: 0.15em;
+				padding-top: 0.2em;
 			}
 
 		altul.dates h3 {
@@ -3542,68 +3556,72 @@ ol {
 altul.dates .date_range {
 	top: 0;
 }
-
 		altul.dates .date_range .datefrom {
+			font-family: Helvetica;
 			display: block;
 			position: absolute;
 			left: 0;
-			top: 1.3em;
+			top: 0.8em;
+			bottom: 1.2em;
 			background-color: #F02D56 ; /* #d52349 */
-			height: 3.5em;
+			height: 4.20em;
 			width: 6em;
 			text-align: center;
 			color: #fff;
-			line-height: 1em;
+			line-height: 1.25em;
 			border-top-left-radius: 5px;
 			border-bottom-left-radius: 5px;
 			padding: 0.5em 0 0 0;
 		}
 
 		altul.dates .date_range .dateto {
+			font-family: Helvetica;
+			font-variant-numeric: lining-nums;
 			display: block;
 			position: absolute;
 			left: 8.0em;
-			top: 1.3em;
+			top: 0.8em;
 			background-color: #F02D56;
-			height: 3.5em;
+			height: 4.20em;
 			width: 6em;
 			text-align: center;
 			color: #fff;
-			line-height: 1em;
+			line-height: 1.25em;
 			border-top-right-radius: 5px;
 			border-bottom-right-radius: 5px;
 			padding: 0.5em 0 0 0;
 		}
-
 			altul.dates  .date_range .datefrom:after {
 				content: '';
 				position: absolute;
 				bottom: 0;
 				right: -1.2em;
 				border-left: solid 1.25em #F02D56;
-				border-top: solid 1.75em transparent;
-				border-bottom: solid 1.75em transparent;
+				border-top: solid 2.10em transparent;
+				border-bottom: solid 2.10em transparent;
 			}
 
+			/* left arrow of second block */
 			altul.dates  .date_range .dateto:before {
 				content: '';
 				position: absolute;
 				bottom: 0;
 				left: -1.2em;
 				border-right: solid 1.25em #F02D56;
-				border-top: solid 1.75em transparent;
-				border-bottom: solid 1.75em transparent;
+				border-top: solid 2.10em transparent;
+				border-bottom: solid 2.10em transparent;
 			}
 
+			/* dates on second block*/
 			altul.dates .date_range .dateto strong {
 				display: block;
 				font-size: 1.75em;
-				padding-top: 0.15em;
+				padding-top: 0.25em;
 			}
 			altul.dates .date_range .datefrom strong {
 				display: block;
 				font-size: 1.75em;
-				padding-top: 0.15em;
+				padding-top: 0.25em;
 			}
 		altul.dates .date_range h3 {
 			font-size: 1.1em;
