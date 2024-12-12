@@ -24,12 +24,6 @@ sections:
       username: admin
     design:
       show_skill_percentage: false
-  - block: resume-piropiro
-    content:
-      title: Piro & Piro
-      username: admin
-    design:
-      show_skill_percentage: false
   - block: resume-awards
     content:
       title: Awards
