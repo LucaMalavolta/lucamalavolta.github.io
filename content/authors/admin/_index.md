@@ -33,8 +33,8 @@ profiles:
   - icon: at-symbol
     url: 'mailto:luca.malavolta@unipd.it'
     label: E-mail Me
-  - icon: brands/x
-    url: https://twitter.com/GetResearchDev
+  #- icon: brands/x
+  #  url: https://twitter.com/GetResearchDev
   #- icon: brands/instagram
   #  url: https://www.instagram.com/
   - icon: brands/github
@@ -48,12 +48,12 @@ profiles:
 
 interests:
   - Exoplanets
-  - Computational Linguistics
-  - Information Retrieval
+  - Stellar Astrophysics
+  - Python enthusiast
 
 education:
-  - area: PhD Artificial Intelligence
-    institution: Stanford University
+  - area: PhD in Astronomy
+    institution: Università degli Studi di PAdova
     date_start: 2016-01-01
     date_end: 2020-12-31
     summary: |
@@ -78,7 +78,7 @@ education:
     date_end: 2020-12-31
     summary: |
       GPA: 3.4/4.0
-      
+
       Courses included:
       - lorem ipsum dolor sit amet, consectetur adipiscing elit
       - lorem ipsum dolor sit amet, consectetur adipiscing elit
@@ -106,7 +106,18 @@ work:
       - Migrated infrastructure to a new data center
       - lorem ipsum dolor sit amet, consectetur adipiscing elit
       - lorem ipsum dolor sit amet, consectetur adipiscing elit
-
+piropiro:
+  - position: Director of Cloud Infrastructure
+    company_name: GenCoin
+    company_url: ''
+    company_logo: ''
+    date_start: 2021-01-01
+    date_end: ''
+    summary: |2-
+      Responsibilities include:
+      - lorem ipsum dolor sit amet, consectetur adipiscing elit
+      - lorem ipsum dolor sit amet, consectetur adipiscing elit
+      - lorem ipsum dolor sit amet, consectetur adipiscing elit
 # Skills
 # Add your own SVG icons to `assets/media/icons/`
 skills:
@@ -142,12 +153,12 @@ skills:
         icon: camera
 
 languages:
-  - name: English
+  - name: Italian
     percent: 100
-  - name: Chinese
+  - name: English
     percent: 75
-  - name: Portuguese
-    percent: 25
+  - name: Spanish
+    percent: 50
 
 # Awards.
 #   Add/remove as many awards below as you like.
@@ -183,4 +194,4 @@ awards:
 
 ## About Me
 
-Chien Shiung Wu is a professor of artificial intelligence at the Stanford AI Lab. Her research interests include distributed robotics, mobile computing and programmable matter. She leads the Robotic Neurobiology group, which develops self-reconfiguring robots, systems of self-organizing robots, and mobile sensor networks.
+Luca Malavolta IS NOT professor of artificial intelligence at the Stanford AI Lab. Her research interests include distributed robotics, mobile computing and programmable matter. She leads the Robotic Neurobiology group, which develops self-reconfiguring robots, systems of self-organizing robots, and mobile sensor networks.
