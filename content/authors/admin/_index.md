@@ -1,17 +1,17 @@
 ---
 # Display name
-title: 吳健雄
+title: Luca Malavolta
 
 # Name pronunciation (optional)
-name_pronunciation: Chien Shiung Wu
+#name_pronunciation: Chien Shiung Wu
 
 # Full name (for SEO)
-first_name: Shiung Wu
-last_name: Chien
+first_name: Luca
+last_name: Malavolta
 
 # Status emoji
 status:
-  icon: ☕️
+  icon: 🪐
 
 # Is this the primary user of the site?
 superuser: true
@@ -20,34 +20,34 @@ superuser: true
 highlight_name: true
 
 # Role/position/tagline
-role: Chief Scientist
+role: Associate Professor
 
 # Organizations/Affiliations to display in Biography blox
 organizations:
-  - name: OpenAI
-    url: https://openai.com/
+  - name: Università degli Studi di Padova
+    url: https://www.unipd.it/
 
 # Social network links
 # Need to use another icon? Simply download the SVG icon to your `assets/media/icons/` folder.
 profiles:
   - icon: at-symbol
-    url: 'mailto:your-email@example.com'
+    url: 'mailto:luca.malavolta@unipd.it'
     label: E-mail Me
   - icon: brands/x
     url: https://twitter.com/GetResearchDev
-  - icon: brands/instagram
-    url: https://www.instagram.com/
+  #- icon: brands/instagram
+  #  url: https://www.instagram.com/
   - icon: brands/github
-    url: https://github.com/gcushen
-  - icon: brands/linkedin
-    url: https://www.linkedin.com/
-  - icon: academicons/google-scholar
-    url: https://scholar.google.com/
+    url: https://github.com/lucamalavolta
+  #- icon: brands/linkedin
+  #  url: https://www.linkedin.com/
+  #- icon: academicons/google-scholar
+  #  url: https://scholar.google.com/
   - icon: academicons/orcid
-    url: https://orcid.org/
+    url: https://orcid.org/0000-0002-6492-2085
 
 interests:
-  - Artificial Intelligence
+  - Exoplanets
   - Computational Linguistics
   - Information Retrieval
 
