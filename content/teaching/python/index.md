@@ -1,11 +1,11 @@
 ---
-title: 🛰️ **PLATO** 
-summary: 🛰️ **PLATO** (PLAnetary Transits and Oscillations of stars) is the upcoming European Space Agency (ESA) mission with the goal of finding and studying rocky, Earth-like exoplanets orbiting in the habitable zones of Sun-like.
+title: 🛰️ PLATO (PLAnetary Transits and Oscillations of stars)
+summary: Learn about the upcoming European Space Agency (ESA) mission with the goal of finding and studying rocky, Earth-like exoplanets orbiting in the habitable zones of Sun-like.
 date: 2023-10-24
 type: docs
 math: false
 tags:
-  - Python
+  - Exoplanets
 image:
   caption: 'Embed rich media such as videos and LaTeX math'
 ---
