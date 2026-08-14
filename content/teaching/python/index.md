@@ -1,6 +1,6 @@
 ---
-title: Learn Python
-summary: Easily learn Python in 10 minutes!
+title: 🛰️ **PLATO** 
+summary: 🛰️ **PLATO** (PLAnetary Transits and Oscillations of stars) is the upcoming European Space Agency (ESA) mission with the goal of finding and studying rocky, Earth-like exoplanets orbiting in the habitable zones of Sun-like.
 date: 2023-10-24
 type: docs
 math: false
