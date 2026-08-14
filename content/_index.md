@@ -37,7 +37,7 @@ sections:
       text: |-
         I am involved in several international astronomical collaborations focused on the confirmation and characterization of exoplanets.  
 
-        🛰️ **PLATO** (PLAnetary Transits and Oscillations of stars) is the upcoming European Space Agency (ESA) mission with the goal of finding and studying rocky, Earth-like exoplanets orbiting in the habitable zones of Sun-like. Earth analogs discovered by PLATO satellite will be bright enough to be observed by ground-based facilities, through the Ground-based Observation Programme (GOP), which is an integrated part of the PLATO mission. The PLATO satellite is currently scheduled for launch in early 2027. I am a member of the **PLATO Science Core Team** and I'm involved at several levels in the *Exoplanet Science*, *Target / Field Characterization and Selectrion*, and "Follow-up Coordination* working packages.  
+        🛰️ **PLATO** (PLAnetary Transits and Oscillations of stars) is the upcoming European Space Agency (ESA) mission with the goal of finding and studying rocky, Earth-like exoplanets orbiting in the habitable zones of Sun-like. Earth analogs discovered by PLATO satellite will be bright enough to be observed by ground-based facilities, through the Ground-based Observation Programme (GOP), which is an integrated part of the PLATO mission. The PLATO satellite is currently scheduled for launch in early 2027. I am a member of the **PLATO Science Core Team** and I'm involved at several levels in the *Exoplanet Science*, *Target / Field Characterization and Selection*, and "Follow-up Coordination* working packages.  
 
         I am the builder of PyORBIT, a code to model photometric and spectroscopic data to robustly determine the orbital and physical parameters of exoplanets 
         
@@ -57,14 +57,24 @@ sections:
       columns: 2
   - block: collection
     content:
-      title: Recent Publications
-      text: ""
+      title: Teaching
+      text: What I do
       filters:
         folders:
-          - publication
+          - teaching
         exclude_featured: false
     design:
       view: citation
+#- block: collection
+  #  content:
+  #    title: Recent Publications
+  #    text: ""
+  #    filters:
+  #      folders:
+  #        - publication
+  #      exclude_featured: false
+  #  design:
+  #    view: citation
   - block: collection
     id: talks
     content:
