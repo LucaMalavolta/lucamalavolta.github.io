@@ -145,9 +145,9 @@ languages:
   - name: Italian
     percent: 100
   - name: English
-    percent: 75
+    percent: 90
   - name: Spanish
-    percent: 50
+    percent: 80
 
 # Awards.
 #   Add/remove as many awards below as you like.
@@ -186,9 +186,9 @@ awards:
 I am an observational astrophysicist and professor at the University of Padova.
 My research focuses on:
 
-🌍 Exoplanet detection and characterization
-⭐ Stellar physics and spectroscopy
-🔭 Photometric and spectroscopic observations
-📊 Open-source tools for data analysis and exoplanet modeling
+🌍 Exoplanet detection and characterization\
+⭐ Stellar physics and spectroscopy\
+🔭 Photometric and spectroscopic observations  
+📊 Open-source tools for data analysis and exoplanet modeling  
 
 I am the proud developer of [`PyORBIT`](https://pyorbit.readthedocs.io/), the first publicly-available Python tool for the precise & accurate characterization of exoplanets.
