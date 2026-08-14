@@ -186,9 +186,9 @@ awards:
 I am an observational astrophysicist and professor at the University of Padova.
 My research focuses on:
 
-🌍 Exoplanet detection and characterization\
-⭐ Stellar physics and spectroscopy\
+🌍 Exoplanet detection and characterization  
+⭐ Stellar physics and spectroscopy  
 🔭 Photometric and spectroscopic observations  
 📊 Open-source tools for data analysis and exoplanet modeling  
 
-I am the proud developer of [`PyORBIT`](https://pyorbit.readthedocs.io/), the first publicly-available Python tool for the precise & accurate characterization of exoplanets.
+I am the proud developer of [PyORBIT](https://pyorbit.readthedocs.io/), the first publicly-available Python tool for the precise & accurate characterization of exoplanets.
